@@ -2,14 +2,14 @@
 # **DPTCMR**
 
 ## **Project Overview**
-DPTCMR is a **recommendation system training project** based on **Prompt learning** and **LightGCN**.  
+DPTCMR is a **cross-market recommendation system project** based on **Prompt learning** and **LightGCN**.  
 It supports **multi-country datasets** and includes **model training, evaluation, and data processing** functionalities.
 
 ## **Directory Structure**
 ```
 DPTCMR/
 │── data/           # Contains user ratings, item information, and other dataset files
-│── model/          # Stores trained model weight files
+│── model/          # Stores trained model files
 │── README.md       # Project documentation, explaining usage and code structure
 │── config.py       # Configuration file, including training parameters and data paths
 │── data.py         # Data loading and preprocessing, including users, items, and interaction data
